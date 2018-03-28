@@ -31,12 +31,13 @@ class App extends React.Component {
 
 // Some time later...
 
-// This can be called at any time
+
+// This can be updated at any time, even outside of a React render
+// Calling it will cause a re-render of all <Context.Consumer /> elements
 ThemeContext.set("dark");
 
 // Or you could still use the traditional method to update within the render cycle:
 // <ThemeContext.Provider value={value}>
 //     {/* children */}
 // </ThemeContext.Provider>
-
 ```
