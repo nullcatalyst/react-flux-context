@@ -1,0 +1,18 @@
+{
+  "name": "react-flux-context",
+  "version": "0.1.0",
+  "description": "An enhanced drop-in replacement for the new React context",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Scott Bennett <scottbennett912@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^16.1.0",
+    "typescript": "^2.8.0"
+  },
+  "peerDependencies": {
+    "react": "^16.1.0"
+  }
+}
